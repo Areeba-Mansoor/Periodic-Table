@@ -5,12 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERIODIC TABLE</title>
-<style>
-    body{
-        background: linear-gradient( to left, rgb(1, 1, 1), rgb(123, 118, 118), rgb(56, 53, 53), rgb(5, 0, 0));
-    }
-</style>
+    <style>
+        body {
+            background: linear-gradient(
+    45deg,
+    #383838,
+    #e9d043,
+    #4682b4,
+    #c785d7,
+    #90ee90,
+    #7b68ee,
+    #f37373,
+    #32cd32
+  );
+  background-size: 300% 200%;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+    </style>
 </head>
+
 <body>
     <center>
         <font face="monospace" size="4" color="white">
